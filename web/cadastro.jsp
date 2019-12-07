@@ -43,8 +43,8 @@
                     <c:if test="${erro.length() > 0}"> 
                         <p class="alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign"></span> ${erro} </p>
                     </c:if>
-                    <c:if test="${erro2.length() > 0}"> 
-                        <p class="alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>  ${erro2} </p>
+                    <c:if test="${erroSenha.length() > 0}"> 
+                        <p class="alert alert-danger"><span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>  ${erroSenha} </p>
                     </c:if>
                     <a href="index.jsp" class="text-primary">Voltar</a>
                 </div>

@@ -75,7 +75,7 @@ public class CadastroServlet extends HttpServlet {
 
         //Lógica
         if (u.getEmail().equals("") || u.getSenha().equals("")) {
-            request.setAttribute("erro2", "Os campos não podem estar vazios!");
+            request.setAttribute("erro", "Os campos não podem estar vazios!");
             request.getRequestDispatcher("cadastro.jsp").forward(request, response);
             return;
         }
